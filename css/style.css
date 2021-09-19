@@ -1,0 +1,266 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    margin-left: 8%;
+    margin-right: 45%;
+}
+
+.heading {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.card {
+    margin: 8% 5% 8% 5%;
+}
+
+.bg {
+    background-color: #f4f7fd;
+}
+
+.bg:hover {
+    background-color: rgba(224, 224, 224, 0.8);
+}
+
+.outercard {
+    box-shadow: 0px 3px 10px 0px #888888;
+}
+
+input {
+    float: left;
+    margin-right: 10%;
+}
+
+.radio {
+    margin-top: 35%;
+}
+
+.radio1 {
+    margin-top: 7%;
+}
+
+.radio2 {
+    margin-top: 7%;
+}
+
+.entername {
+    margin-left: 3%;
+    width: 95%;
+}
+
+.enternameinput {
+    width: 95%;
+    margin-top: 2%;
+}
+
+.choose {
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.card2 {
+    /* float: left; */
+    display: flex;
+    flex-direction: row;
+}
+
+.title2 {
+    margin-top: 5%;
+}
+
+.waterdrop {
+    margin-right: 10%;
+}
+
+.image {
+    width: 20%;
+    height: 20%;
+    margin-right: 7%;
+    margin-left: -2%;
+}
+
+.image1 {
+    width: 25%;
+    height: 30%;
+    margin-bottom: 7%;
+}
+
+.top {
+    margin-top: 5%;
+}
+
+
+/* .top1 {
+    padding-top: -10%;
+} */
+
+.standalone {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 480px) {
+    .form {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
+/* ------------------------------------------- Cookies ------------------------------------------- */
+
+.preview {
+    position: fixed;
+    top: 21%;
+    left: 10%;
+    right: 80%;
+    width: 30%;
+    margin-left: 50%;
+}
+
+.cookies {
+    color: white;
+    background-color: black;
+    border-radius: 1%;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.previewpage {
+    background-color: white;
+    color: black;
+    padding: 4%;
+    position: relative;
+}
+
+.previewpage_button {
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.previewpage_button:hover {
+    background-color: #e0dede;
+}
+
+.agree {
+    color: black;
+    border-radius: 2%;
+}
+
+.agreebtn {
+    width: 100%;
+    margin-top: 5%;
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0.8%;
+}
+
+.declinebtn {
+    width: 100%;
+    margin-top: 1%;
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0.8%;
+}
+
+.preference {
+    padding-bottom: 10%;
+}
+
+.preferencebtn {
+    width: 100%;
+    margin-top: 1%;
+    background-color: rgba(204, 200, 200, 0.795);
+    padding: 0.8%;
+    font-weight: bold;
+}
+
+.mainpreview {
+    box-shadow: 0px 3px 10px 0px #888888;
+    height: 63%;
+    border-radius: 2%;
+    overflow: auto;
+}
+
+#mainpreference {
+    position: fixed;
+    margin: 2%;
+    top: 18%;
+    left: 12%;
+    right: 80%;
+    width: 25%;
+    margin-left: 50%;
+    padding: 1%;
+    height: 62%;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    overflow: auto;
+}
+.dropdown1{
+    background-color: white;
+    color: black;
+}
+
+.privacylist{
+        font-size: 15px;
+        width: 100%;
+        margin-top: 2%;
+        
+    }
+    .privacylist a{
+        
+        background-color:#e7e5e5;
+        color:black;
+}
+
+.privacylist a:hover{
+        background-color: yellow;
+        font-weight: bold;
+        color: black;
+        border: 2px solid black;
+}
+
+.privacyinformation{
+    text-align: left;
+}
+
+.privacyinformation h4{
+    margin: 5% 2%;
+}
+
+.privacyinformation p{
+    margin: 5% 2%;
+    font-size: 15px;
+}
+
+.savemypreference{
+    color: black;
+    border-radius: 2%;
+     text-align: center;  /*copyright property changes */
+}
+
+.savemypreferencebtn{
+    width: 50%;
+    margin-top: 2%;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.8%;
+}
+#closebtn{
+        font-size: 15px;
+        margin-left: 2%;
+}
